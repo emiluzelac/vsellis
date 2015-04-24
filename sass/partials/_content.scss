@@ -1,0 +1,27 @@
+body {
+	@include background-image(linear-gradient(to right, #2ac363, #cd8c14, #9c4cc2));
+
+	a {
+		color: #00f;
+		font-weight: bold;
+	}
+
+	p {
+		color: #000;
+	}
+
+	ul {
+		padding: 40px;
+		li {
+			list-style: none;
+			a {
+				color: blue;
+			}
+		}
+	}
+
+}
+
+#{headings()} {
+	font-family: 'Open Sans';
+}
